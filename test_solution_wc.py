@@ -23,7 +23,7 @@ def norm_to_pixels_ann(image,
         image_rows)
     rect_end_point = denormalisation(
         relative_bounding_box.xmin + relative_bounding_box.width,
-        relative_bounding_box.ymin + +relative_bounding_box.height,
+        relative_bounding_box.ymin + relative_bounding_box.height,
         image_cols,
         image_rows)
     bbox = [rect_start_point[0],
