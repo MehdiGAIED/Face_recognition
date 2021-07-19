@@ -1,0 +1,70 @@
+create django basic project
+connect django with db (understand & manipulate it)
+
+perform face detection using mediapipe with basic tutorials 
+create VGGface, Facenet implementation for it :
+	-replace mtcnn by mideapipe 
+		-https://github.com/ipazc/mtcnn
+		-https://machinelearningmastery.com/how-to-perform-face-recognition-with-vggface2-convolutional-neural-network-in-keras/
+
+integrate all this in django app thrue cli
+
+deseign front-end web page(work on deseign)
+
+********************************************
+workflow: Cerebrra face recognition:
+
+sprint1:création d'un algo de face détection(2mois)
+   |installation de requirement 
+   |requirement upgrade 
+   |documentation sur les algo utilisés
+   |algorithme de détection 
+   |calcul de fps 
+   |optimisation de fps
+   |optimisation au niveau de bounding box 
+sprint2: création d'un algo de face recognition(3mois)
+   |documentation sur les solutions utilisés
+   |etude compararif sur ces solutions
+   |prepartion de l'environnement 
+   |installation de requirement
+   |requirement upgrade 
+   |proposition d'une solution propre à cerebrra qui prend en compte l'etude comparatif
+   |création d'une méthode de face embedings
+   |méthode pour face cropping
+   |création d'un réseau d'apprentissage 
+   |création d'un classifieur 
+   |la reconnaissance 
+   |calcul de fps
+   |optimisation de fps
+sprint3:création d'un platforme web (2mois)
+   |préparation de l'environnement django
+   |installation de requirement
+   |requirement upgrade 
+   | backend development
+   |frontend development
+   |validation
+ 
+sprint4: intégration d'un SGBD(2mois)
+   |création d'une BD mongodb
+   |installation de requirement
+   |requirement upgrade 
+   |intégration de la BD 
+   |création d'un pipeline de données 
+
+sprint5: test unitaires et validation(2mois)
+   |test face detection 
+   |validation face detection
+   |test face recignition
+   |validation face recognition
+   |test web application
+   |validation web applicatio
+   |test data base
+   |validation data base 
+
+sprint6:tester toute l'application web sur plusieurs essaies et validation(1mois)
+
+  
+   
+     
+    
+

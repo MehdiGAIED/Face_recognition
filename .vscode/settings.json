@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "C:\\Users\\Client\\anaconda3\\python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.linting.pylintEnabled": true,
+    "python.condaPath": "C:\\Users\\Client\\anaconda3\\Scripts\\conda.exe",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows":["/K","C:\\client\\anaconda3\\Scripts\\activate base"],
+    "python.terminal.executeInFileDir": true
+
+}

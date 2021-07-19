@@ -1,0 +1,9 @@
+imageio
+imutils
+mediapipe==0.8.6
+numpy==1.19.5
+opencv-python==4.5.2.54
+Pillow
+tensorflow
+scipy 
+scikit-learn
