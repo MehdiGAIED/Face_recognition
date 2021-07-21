@@ -6,6 +6,7 @@ import sys
 import os
 import pickle
 import numpy as np
+cimport numpy as np
 import facenet
 import tensorflow.compat.v1 as tf
 from scipy import misc
@@ -31,9 +32,9 @@ def norm_to_pixels_ann(image,
             rect_end_point[0],
             rect_end_point[1],
             score[0]]
-    if show_image == True:
-        import matplotlib.pyplot as plt 
-        plt.imshow(annotated_image)
+    #if show_image == True:
+        #import matplotlib.pyplot as plt 
+        #plt.imshow(annotated_image)
         
 
     return bbox
